@@ -5,6 +5,6 @@ let student = {
     ispass : true,
 };
 
-for (let key in student){
+for (let key in student) {
     console.log("key=",key, "value=", student[key]);
 }
