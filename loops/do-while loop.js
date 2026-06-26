@@ -23,7 +23,7 @@ let num = 1;
 let sum = 0;
 
 do {
-    if (num % 2 == 0) {
+    if (num % 2 === 0) {
         sum += num;
     }
     num++;
